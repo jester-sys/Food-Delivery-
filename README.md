@@ -23,6 +23,8 @@ Include a few screenshots showcasing the user interface and key features of your
 <img src="https://github.com/jester-sys/Food-Delivery-/assets/115554090/05b21648-1e9b-4571-af2c-cde6189df9e5" width="200" height="400">
 <img src="https://github.com/jester-sys/Food-Delivery-/assets/115554090/4d347bf9-98d2-413c-8248-5a0a58b689da" width="200" height="400">
 
+<img src="https://github.com/jester-sys/Food-Delivery-/assets/115554090/6f89ac00-ce9b-4ab6-8c12-20db21e619dd" width="200" height="400">
+
 
 
 
