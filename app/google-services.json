@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "323099242871",
+    "project_id": "foodwave-afacc",
+    "storage_bucket": "foodwave-afacc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323099242871:android:63b161484f4219117e3172",
+        "android_client_info": {
+          "package_name": "com.krishna.foodwave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323099242871-njv34ettn06jqc3tnpsor1hmbb60opn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6GIwW9qo1bwjZI3WKvc9co_GZUAWkFDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323099242871-njv34ettn06jqc3tnpsor1hmbb60opn9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

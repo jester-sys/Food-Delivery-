@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+
+
+
+    <meta-data
+        android:name="com.razorpay.ApiKey"
+        android:value="rzp_test_NlLjOj92nUuOpL" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FoodWave"
+        tools:targetApi="31">
+        <activity
+            android:name=".User.ui.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.ui.WhishListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.ui.AccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.FoodWave.NoActionBar" />
+        <activity
+            android:name=".User.Activity.CartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.Activity.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.Activity.AdressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.Activity.CatDettailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.Activity.ProductDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.UI.AddProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.UI.AdminHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.LoginActivity.UserSignActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.Home.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".User.LoginActivity.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

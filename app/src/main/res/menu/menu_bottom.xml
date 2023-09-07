@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Home"
+    android:icon="@drawable/home_icon"
+    android:id="@+id/Home"/>
+    <item android:id="@+id/Category"
+        android:icon="@drawable/baseline_category_24"
+        android:title="Category"/>
+
+    <item android:id="@+id/Product"
+        android:icon="@drawable/product"
+        android:title="Product"/>
+
+    <item android:id="@+id/Slider"
+        android:icon="@drawable/slider_icon"
+        android:title="Slider"/>
+
+    <item android:icon="@drawable/oder_icon"
+        android:id="@+id/Oder"
+        android:title="OderDetails"/>
+</menu>

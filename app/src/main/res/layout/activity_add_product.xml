@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_grey"
+    android:layout_margin="10dp"
+    tools:context=".Admin.UI.AddProductActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/ProductNameEdt"
+                android:layout_width="match_parent"
+                android:hint="Add Product Image"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/boder_background"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/ProductDescEdt"
+                android:layout_width="match_parent"
+                android:padding="16dp"
+                android:layout_margin="8dp"
+                android:textColor="@color/black"
+                android:background="@drawable/boder_background"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:hint="Add Product Description"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/ProductMRPEdt"
+                android:layout_width="match_parent"
+                android:hint="Product MRP"
+                android:padding="16dp"
+                android:layout_margin="8dp"
+                android:textColor="@color/black"
+                android:background="@drawable/boder_background"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/ProductSpEdt"
+                android:layout_width="match_parent"
+                android:hint="Product SP"
+                android:padding="16dp"
+                android:layout_margin="8dp"
+                android:textColor="@color/black"
+                android:background="@drawable/boder_background"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_height="wrap_content"/>
+
+            <Spinner
+                android:id="@+id/Product_category_DropDown"
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/select_cover_img"
+                android:textAllCaps="false"
+
+                android:textColor="@color/white"
+                android:layout_marginTop="8dp"
+                android:text="Select Cover Image"
+                android:layout_margin="18dp"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:id="@+id/produc_cover_img"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/product_img_btn"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:text="Select Product Image"
+                android:layout_margin="18dp"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                tools:listitem="@layout/image_item"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:id="@+id/product_img_Recycler_view"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/submit_product_btn"
+                android:textAllCaps="false"
+                android:text="Add Product"
+                android:textColor="@color/white"
+                android:layout_margin="18dp"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
